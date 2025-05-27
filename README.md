@@ -2,9 +2,9 @@
 
 I AM GOING TO ANALYZE THIS EMAIL TODAY
    
-From: services@paypal-accounts.com
-To: [myemail@gmail.com]
-Subject: Urgent: Your PayPal Account Has Been Limited
+From: services@paypal-accounts.com </br>
+To: [myemail@gmail.com] </br>
+Subject: Urgent: Your PayPal Account Has Been Limited </br>
 Date: [27 may 2025]
 
 Dear PayPal Customer,
@@ -35,7 +35,7 @@ MY FINDINGS
      -> DKIM:	 none                         it verifies mail is tempered or not it showing none means did'nt include DKIM signature
      -> DMARC: fail                         Uses SPF and DKIM to tell receiving mail servers what to do with failing messages. The email failed both SPF and DKIM, or the alignment was incorrect.
 </br>
-CONCLUSION
+CONCLUSION:</br>
 DO NOT trust this email — these results strongly suggest it’s phishing, spoofed, or fraudulent. 
    
    
