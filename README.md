@@ -32,12 +32,12 @@ MY FINDINGS
 3. if there is any url is provided in the email dont click on it just hover on it dont click on it & check precisely and if any clickable button don't click on it 
 4. After physicaly verifying email address i go to the email header analysis i used Google email header analysis
    HEADER ANALYSIS RESULT
-     -> SPF:	softfail with IP Unknown!     it fails means sender is not authorised by domain's SPF record
-     -> DKIM:	 none                         it verifies mail is tempered or not it showing none means did'nt include DKIM signature
-     -> DMARC: fail                         Uses SPF and DKIM to tell receiving mail servers what to do with failing messages. The email failed both SPF and DKIM, or the alignment was incorrect.
+     -> SPF:	softfail with IP Unknown!     it fails means sender is not authorised by domain's SPF record </br>
+     -> DKIM:	 none                         it verifies mail is tempered or not it showing none means did'nt include DKIM signature </br>
+     -> DMARC: fail                         Uses SPF and DKIM to tell receiving mail servers what to do with failing messages. The email failed both SPF and DKIM, or the alignment was incorrect. 
 </br>
 CONCLUSION:</br>
-DO NOT trust this email — these results strongly suggest it’s phishing, spoofed, or fraudulent.
+DO NOT trust this email — these results strongly suggest it’s phishing, spoofed, or fraudulent. 
 
 # TOOLS USED
 1. phistank 
